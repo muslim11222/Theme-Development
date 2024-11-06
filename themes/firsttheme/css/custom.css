@@ -1,0 +1,197 @@
+
+/* Common style */
+img {
+     max-width: 100%;
+}
+
+p {
+     font-family: "Montserrat", sans-serif;
+     font-size: 15px;
+     line-height: 1.5em;
+}
+
+
+
+/* body area style */
+#body_area {
+     padding: 45px 0;
+}
+#body_area .blog_area {
+     width: 100%;
+     margin-bottom: 15px;
+}
+#body_area .post_thum {
+     overflow: hidden;
+     width: 100%;
+     margin-bottom: 15px;
+}
+#body_area .post_thum img{
+     width: 100%;
+     display: block;
+     transition: 0.5s;
+}
+
+#body_area .post_thum:hover img{
+    transform: scale(1.1);
+}
+
+#body_area .post_details {
+     width: 100%;
+}
+
+#body_area .post_details h2 {
+     font-family: 'roboto', sans-serif;
+     font-weight: 700;
+     font-size: 30px;  
+}
+#body_area .post_details h2 a {
+     color: #262626;
+     text-decoration: none;
+     transition: 0.5s;
+}
+#body_area .post_details h2 a:hover {
+     color: red;
+}
+
+
+
+
+
+
+
+
+
+#nav {
+     display: flex;
+     justify-content: end;
+}
+.ul_area {
+     display: flex;
+     margin-left: 400px;
+}
+.ul_area li {
+     margin-left: 15px;
+     list-style: none;
+     background-color: black;
+     border-radius: 10px;
+     padding: 5px 10px;
+
+}
+
+.ul_area li a {
+     text-decoration: none;
+     color: aliceblue;
+}
+.ul_area li:hover {
+     background: rgb(155, 146, 146);
+}
+
+
+
+/* menu positon area */
+#header_area.left_menu .col-md-3{
+     order: 2;
+}
+#header_area.left_menu .col-md-9 {
+     order: 1;
+}
+#header_area.left_menu .col-md-9 ul{
+     text-align: left;
+}
+
+
+#header_area.center_menu .col-md-3{
+     width: 100%;
+     text-align: center;
+     margin-bottom: 15px;
+}
+#header_area.center_menu .col-md-9 {
+     width: 100%;
+}
+#header_area.center_menu .col-md-9 ul{
+     text-align: center;
+}
+
+
+/* Index Blog page area style */
+
+
+
+
+
+
+
+
+/* copy_right_area */
+#copy_right_area {
+     background: #292929;
+     color: aliceblue;
+     padding: 20px 0;
+     text-align: center;
+}
+#copy_right_area p {
+     color: #fff;
+     font-size: 20px;
+}
+
+
+
+
+ /* reade more style */
+ .reade_more {
+     background-color: red;
+     color: #fff;
+     padding: 10px 10px;
+     text-decoration: none;
+     border-radius: 10px;
+     transition: 0.5s;
+ }
+
+
+/* 
+ Page Navigation mane holo ak page theke onno page gele je 1 2 show kore seta  */
+
+ #page_nav p.pages {
+     background-color: red;
+     color: #fff;
+     padding: 5px 10px ;
+ }
+
+ #page_nav .page-numbers {
+     background-color: red;
+     color: #fff;
+     display: inline-block;
+     text-decoration: none;
+     padding: 5px 10px;
+     margin-right: 5px;
+ }
+ #page_nav .page-numbers.current,  #page_nav .page-numbers:hover {
+     background-color: black;
+ }
+
+
+ /* widgets area style */
+ #body_area .child_sidebar ul {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     text-align: left;
+ }
+ #body_area .child_sidebar ul li {
+     display: block;
+     margin-bottom: 50px;
+ }
+ #body_area .child_sidebar ul li a {
+     text-decoration: none;
+ }
+
+
+ /* =================
+Footer area style 
+ ================= */
+
+ #footer {
+     background-color: #292929;
+     padding-top: 50px;
+     color: #fff;
+ }
